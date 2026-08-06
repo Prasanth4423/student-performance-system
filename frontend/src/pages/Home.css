@@ -1,0 +1,236 @@
+body{
+    background:#f8fafc;
+    font-family:'Poppins',sans-serif;
+}
+
+
+
+.hero-section h1{
+    color:#1f2937;
+    line-height:1.2;
+}
+
+.hero-section p{
+    font-size:20px;
+}
+
+
+
+.btn{
+    border-radius:10px;
+    padding:10px 25px;
+}
+
+.hero-section img{
+    max-width:90%;
+}
+
+.features-section{
+
+    background:#f8fafc;
+
+}
+
+.feature-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(37,99,235,.15);
+
+}
+
+
+
+.icon{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:35px;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h4{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.feature-card p{
+
+    color:#6b7280;
+
+}
+.stats-section{
+
+margin:60px 0;
+
+background:linear-gradient(90deg,#effcf7,#eef9ff);
+
+padding:50px;
+
+border-radius:20px;
+
+}
+
+.stats-section h1{
+
+font-size:50px;
+
+color:#16a34a;
+
+font-weight:700;
+
+}
+
+.stats-section p{
+
+font-size:20px;
+
+font-weight:600;
+
+}
+.footer{
+
+    background:#0f172a;
+
+    padding:35px 0;
+
+    margin-top:80px;
+
+}
+
+.footer-link{
+
+    color:white;
+
+    margin-left:20px;
+
+    text-decoration:none;
+
+}
+
+.footer-link:hover{
+
+    color:#38bdf8;
+
+}
+.btn{
+
+    padding:12px 30px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+.navbar{
+
+    background:white !important;
+
+    padding:18px 0;
+
+    box-shadow:0 5px 25px rgba(0,0,0,.08);
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.nav-link{
+
+    font-weight:600;
+
+    margin-left:20px;
+
+}
+.hero-section{
+
+    background:linear-gradient(
+        180deg,
+        #ffffff,
+        #f8fbff
+    );
+
+    padding:90px 0;
+
+}
+.about-section{
+
+    background:#ffffff;
+
+    padding:80px 0;
+
+}
+
+.about-section h2{
+
+    color:#1f2937;
+
+}
+
+.about-section p{
+
+    line-height:1.8;
+
+}
+
+.about-section img{
+
+    transition:.3s;
+
+}
+
+.about-section img:hover{
+
+    transform:scale(1.05);
+
+}
